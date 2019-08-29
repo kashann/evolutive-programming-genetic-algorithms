@@ -1,0 +1,11 @@
+>> gen_perm(5)
+
+>> D=load('distante.txt');
+>> p=gen_perm(10)
+>> cp=cost(p,D)
+
+>> t=max(max(D))
+
+
+>> [s,costs]=hillclimbing(100,'distante.txt')
+>> disp(s)

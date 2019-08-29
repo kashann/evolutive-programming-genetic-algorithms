@@ -1,0 +1,9 @@
+function [s] = gen_solf(numec,cmax)
+c=load(numec);
+n=length(c);
+
+m=unidmd(2^n)-1;
+s=bitget(m,n:-
+
+end
+

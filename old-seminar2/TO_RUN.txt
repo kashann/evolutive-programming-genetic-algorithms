@@ -1,0 +1,6 @@
+>> sol=gen_solf('cost.txt',50);
+>> disp(sol)
+
+
+>> Populatie=gen_poprd('cost.txt','beneficiu.txt',50,10);
+>> disp(Populatie)

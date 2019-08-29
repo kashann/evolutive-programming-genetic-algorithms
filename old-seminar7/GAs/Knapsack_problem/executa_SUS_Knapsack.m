@@ -1,0 +1,9 @@
+cost=load('cost.txt');
+valoare=load('valoare.txt');
+n=length(cost);
+dim=50;
+cmax=44;
+Populatie=gen_pop_vbiti(dim,cost,valoare,cmax);
+Parinti=SUS(Populatie);
+hist(Populatie(1:50,10));figure;figure(gcf);
+hist(Parinti(1:50,10));figure(gcf);

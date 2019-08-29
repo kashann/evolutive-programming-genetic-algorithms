@@ -1,0 +1,12 @@
+cost=load('cost.txt');
+valoare=load('valoare.txt');
+n=length(cost);
+dim=50;
+cmax=44;
+Copii=gen_pop_vbiti(dim,cost,valoare,cmax);
+pm=0.3;
+CopiiM=mutatie_copii_1(Copii,cost,valoare,cmax,pm);
+x1=max(Copii(:,n+1));
+disp(['Valoarea celui mai bun copil: ' num2str(x1)]);
+x2=max(CopiiM(:,n+1));
+disp(['Valoarea celui mai bun copil eventual mutat: ' num2str(x2)]);

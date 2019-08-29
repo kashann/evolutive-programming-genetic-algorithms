@@ -1,0 +1,5 @@
+>> cost=load('cost.txt');
+>> valoare=load('valoare.txt');
+>> Populatie=gen_pop_vbiti(10,cost,valoare,44);
+>> disp(Populatie)
++run script1
